@@ -26,7 +26,7 @@ SECRET_KEY = '6t%_xh%^rf1p2v6*9-_f3uiqd*ycw1wsyr%zskw(pmvh84d*dr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['agueroweb.herokuapp.com']
 
 
 # Application definition
