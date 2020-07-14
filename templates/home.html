@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="stylesheet" href="{% static "css/home.css" %}"/>
+    </head>
+{% csrf_token %}
+        <body>
+            <header class="main-header">
+                <nav class="nav main-nav">
+                    <ul>
+                        <li><a href="home">HOME </a></li>
+
+                          <li><a href="loanrec">LOAN RECOMMENDER</a></li>
+                       <li><a href="graphs">GRAPHS </a></li>
+
+                    </ul>
+                </nav>
+            <br>
+            <br>
+
+
+                <h1 class="band-name band-name-large">
+
+                     AGRICULTURAL LOAN RECOMMENDATION SYSTEM
+                </h1>
+            </header>
+            <section class="content-section container">
+                <br>
+                <br>
+                <h2 class="section-header">ABOUT</h2>
+                  <img class="about-band-image"src="{% static "images/mandi.jpg" %}" alt="">
+                <p>
+                An average Indian farmer, who has to work on an uneconomic holding’, using traditional methods of cultivation and being exposed to the risks of a poor agricultural season is almost always in debt. He is a perennial debtor.
+                Once the farmer falls into debt due to crop failure or low prices of crops or malpractices of moneylenders he can never come out of it. In fact, large part of the liabilities of farmers is ‘ancestral debt’. Thus, along with his landed property, he passes on his debt to the next generation.
+                This vicious cycle of debt is the very reason for the ineffectiveness of the overall agricultural finance sector. These problems arise both in the private sector as well as the public sector and hence require a clear cut, widespread solution.Our project aims to create a system for processing information on agricultural loan datasets and make use of the statistical data to make inferences and observations relevant to the appropriateness of the loan scheme with reference to the farmers’ needs as well as the bank’s position on the loan and its kind.
+
+               </p>
+               
+                 </p>
+            </section>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+
+            <footer class="main-footer">
+                <div class="container main-footer-container">
+                <h3 class="band-name">
+                    AGRICULTURAL LOAN RECOMMENDATION SYSTEM
+                </h3>
+                <ul class="nav footer-nav">
+                    <li><img src="{% static "images/twit.png" %}"></li>
+                    <li><img src="{% static "images/face.png" %}"></li>
+                    <li><img src="{% static "images/insta.png" %}"></li>
+                </ul>
+                </div>
+            </footer>
+            </body>
+
+
+            </html>
