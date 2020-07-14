@@ -24,7 +24,7 @@ STATIC_DIR = os.path.join(BASE_DIR,"static")
 SECRET_KEY = '6t%_xh%^rf1p2v6*9-_f3uiqd*ycw1wsyr%zskw(pmvh84d*dr'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['agueroweb.herokuapp.com']
 
