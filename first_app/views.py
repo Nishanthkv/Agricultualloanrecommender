@@ -17,7 +17,7 @@ import os
 
 import joblib
 
-knn=joblib.load(r"C:\Users\Nishanth kv\Desktop\mini1\first_project\models\loan_model.pkl")
+knn=joblib.load(r"C:\Users\Nishanth kv\Desktop\mini2\first_project\models\loan_model.pkl")
 
 
 
